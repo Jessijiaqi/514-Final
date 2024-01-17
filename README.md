@@ -8,7 +8,8 @@ It's a smart pet door system designed to assist free-roaming kittens in entering
 ### Sensor Device
 ![未命名作品 22](https://github.com/Jessijiaqi/514-Final/assets/148395825/aee8a842-0252-4b9b-8ab1-46326fba32f0)
 - Microchip Scanner **DX-B (ISO 11784/11785 compliant)**: The core sensor for identifying pets. It reads the microchip implanted in the pet to determine if it's a registered household animal.
-- Motion Sensor:**HC-SR501To** detect when an animal is approaching the door. Technologies like PIR (Passive Infrared) are common for such applications.
+  OR BLE system:ESP32 as the receiver .
+- Motion Sensor:**HC-SR501 or AM312** detect when an animal is approaching the door. Technologies like PIR (Passive Infrared) are common for such applications.
 - **Camera Raspberry Pi Camera Module V2**: Optionally, a camera can be used for additional security and to visually confirm the identity of the animal.
 - MCU:**ESP32**
 
