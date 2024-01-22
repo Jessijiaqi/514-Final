@@ -19,6 +19,7 @@ It's a smart pet door system designed to assist free-roaming kittens in entering
 - Tactile push button：A simple button for user interaction, such as resetting counters, changing modes, or silencing alarms. 
 - Servo Motor: **MG996R** For precise control of the door's movement.
   https://dronebotworkshop.com/esp32-servo/
+  https://esp32io.com/tutorials/esp32-mg996r
 - Stepper Motor Model: **28BYJ-48** (with ULN2003 Driver Board)This is a small, affordable stepper motor that is sufficient for moving a gauge needle. It can indicate various statuses, like battery level or the number of times the pet has used the door.
 - MCU:**ESP32**
 
