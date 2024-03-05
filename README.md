@@ -7,20 +7,16 @@ It's a smart pet door system designed to assist free-roaming kittens in entering
 
 ### Sensor Device
 ![未命名作品 22](https://github.com/Jessijiaqi/514-Final/assets/148395825/aee8a842-0252-4b9b-8ab1-46326fba32f0)
-- Microchip Scanner **DX-B (ISO 11784/11785 compliant)**: The core sensor for identifying pets. It reads the microchip implanted in the pet to determine if it's a registered household animal.
-  OR BLE system:ESP32 as the receiver .
-- Motion Sensor:**HC-SR501 or AM312** detect when an animal is approaching the door. Technologies like PIR (Passive Infrared) are common for such applications.
-- **Camera Raspberry Pi Camera Module V2**: Optionally, a camera can be used for additional security and to visually confirm the identity of the animal.
-- MCU:**ESP32**
+- MCU **ESP32**: For BLE system and manage ML and sensor data.
+- Motion Sensor:**HC-SR501** detect when an animal is approaching the door. 
+- **Camera attached to ESP32**: The camera can be used for identifying the household cat's face: serve as a "Cat Face ID".
 
 ### Display Device
 ![未命名作品 19](https://github.com/Jessijiaqi/514-Final/assets/148395825/32567d52-5377-4285-849c-46ae5611d3d1)
-- **RGB LED**：LEDs can be used for status indicators (e.g.low battery, pet inside/outside)
-- Tactile push button：A simple button for user interaction, such as resetting counters, changing modes, or silencing alarms. 
-- Servo Motor: **MG996R** For precise control of the door's movement.
-  https://dronebotworkshop.com/esp32-servo/
-  https://esp32io.com/tutorials/esp32-mg996r
-- Stepper Motor Model: **28BYJ-48** (with ULN2003 Driver Board)This is a small, affordable stepper motor that is sufficient for moving a gauge needle. It can indicate various statuses, like battery level or the number of times the pet has used the door.
+- **LED**：LEDs can show the circuit being connected.
+- A switch：Control circuit energised
+- Servo Motor: **SG90** Control the door’s mechanism.
+- Stepper Motor Model: **X27.168** Indicate the door‘s state
 - MCU:**ESP32**
 
 ### Device Connection
